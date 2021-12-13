@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1,
+	h2,
+	h3,
+	h4 {
+		@apply font-bold;
+	}
+}
+
+.bg-gradient {
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), transparent) #018ada;
+}
+
+.font-sarabun {
+	font-family: 'Sarabun', sans-serif;
+}
+
+body {
+	@apply text-sm text-gray-500;
+}
