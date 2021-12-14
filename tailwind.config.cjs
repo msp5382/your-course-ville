@@ -13,7 +13,9 @@ module.exports = {
       colors: {
         "chula": "#de5c8e",
         "courseville": "#FFA200",
-        primary: "#018ADA"
+        primary: "#018ADA",
+        "primary-light": '#bef0ff',
+        "primary-light2": '#e6f9ff'
       }
     },
   },
