@@ -1,12 +1,21 @@
 <script>
 	import { library } from '@fortawesome/fontawesome-svg-core';
-	import { faSignOutAlt, faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
+	import {
+		faSignOutAlt,
+		faChevronCircleDown,
+		faChevronCircleRight,
+		faVideo,
+		faPlay
+	} from '@fortawesome/free-solid-svg-icons';
 	import { FontAwesomeIcon } from 'fontawesome-svelte';
 	import NavButton from '../../components/cv/NavButton.svelte';
 	import Button from '../../components/Button.svelte';
 	import { goto } from '$app/navigation';
 	library.add(faSignOutAlt);
 	library.add(faChevronCircleDown);
+	library.add(faChevronCircleRight);
+	library.add(faVideo);
+	library.add(faPlay);
 
 	let menus = [
 		{
