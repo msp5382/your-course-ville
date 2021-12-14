@@ -1,5 +1,5 @@
 {
-	"name": "my-black-ville",
+	"name": "your-course-ville",
 	"version": "0.0.1",
 	"scripts": {
 		"dev:only": "svelte-kit dev",
